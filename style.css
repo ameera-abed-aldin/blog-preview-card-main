@@ -78,34 +78,21 @@ body {
   place-content: center;
   font-family: var(--font-family);
   background-color: var(--Yellow);
-  position: relative;
-}
-.underMain {
-  position: absolute;
-  top: 51%;
-  left: 51%;
-  transform: translate(-50%, -50%);
-  width: 325px;
-  height: 450px;
-  background-color: var(--Black);
-  border-radius: 1rem;
-  border: 1px solid var(--Black);
+  padding-inline: 1rem;
+ 
 }
 
+
 main {
-  position: absolute;
-  width: 325px;
-  height: 450px;
-  padding: 20px;
+  box-shadow: 10px 10px var(--Black);
+  max-width: 24rem;
+  padding: 1.25rem;
   background-color: var(--White);
   display: grid;
-  gap: 12px;
+  gap: .75rem;
   border-radius: 1rem;
   border: 1px solid var(--Black);
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 .artical-img {
   border-radius: 1rem;
@@ -120,36 +107,31 @@ h1:hover {
 .flex {
   display: flex;
 }
-h2 {
-  font-size: 12px;
+.learning{
+  font-size: .75rem;
   background-color: var(--Yellow);
   display: inline-block;
   padding: 5px 10px;
   border-radius: 0.3rem;
 }
 .publish {
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: var(--fw-500);
-  margin-top: 8px;
+  margin-top:.6rem;
 }
 .author {
-  gap: 10px;
+  gap: 0.62rem;
   align-items: center;
 }
 .image-avatar {
-  width: 32px;
+  width: 2rem;
 }
-h3 {
-  font-size: 14px;
+.auther-name {
+  font-size: .85rem;
   font-weight: var(--fw-800);
 }
 .description{
     color:var(--Grey);
     font-size: var(--fz-pergraph);
 }
-@media (min-width: 768px) {
-  .underMain {
-    top: 51%;
-    left: 50.5%;
-  }
-}
+
